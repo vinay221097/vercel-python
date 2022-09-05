@@ -28,7 +28,7 @@ chrome_path=r"{}/node_modules/chromium-version/lib/chromium/chrome-linux/chrome"
 os.environ['CHROME_PATH']=chrome_path
 binary_path=os.environ.get('CHROME_PATH')
 
-path=r'chrome/chromedriver'
+path=r'api/chrome/chromedriver'
 os.chmod(path, 0o777)
 options = Options()
 options.binary_location =binary_path
